@@ -1,5 +1,5 @@
 [package]
-name = "actix-gcd"
+name = "mandelbrot"
 version = "0.1.0"
 authors = ["pigooosuke <hifirole@gmail.com>"]
 edition = "2018"
@@ -7,5 +7,5 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-actix-web = "1.0.8"
-serde = { version = "1.0", features = ["derive"] }
+num = "0.4"
+image = "0.13.0"
